@@ -56,7 +56,7 @@ def split(pos, p_pos):
         return True
     return False
 
-
+# Note, that this solution doesn't work for any example you give it, but it solved all the inputs from KSP-H
 end = None
 find(start_pos, (-1, -1))
 for line in warehouse:
